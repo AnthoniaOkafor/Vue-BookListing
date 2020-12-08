@@ -35,6 +35,11 @@ export default {
         font-weight: normal
     }
 
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
    
    
 </style>
