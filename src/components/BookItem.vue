@@ -1,15 +1,13 @@
 <template>
-<ul>
     <li>
          {{book.title}}:{{book.author}}
     </li>
-</ul>
 
 </template>
 
 <script>
 export default {
-    name: BookItem,
+    name: 'BookItem',
     props: ['book']
     
 }
@@ -18,11 +16,6 @@ export default {
 
 <style>
 
-    ul {
-        list-style-type: none;
-        padding: 0;
-         }
-         
     li {
         display: block;
         margin: 0 10px
